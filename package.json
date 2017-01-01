@@ -1,0 +1,30 @@
+{
+  "name": "wax-on-wax-off",
+  "version": "1.0.0",
+  "description": "Your first real website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borja-rojano/wax-on-wax-off.git"
+  },
+  "keywords": [
+    "learn",
+    "web",
+    "development",
+    "beginner",
+    "MEAN"
+  ],
+  "author": "Borja Rojano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/borja-rojano/wax-on-wax-off/issues"
+  },
+  "homepage": "https://github.com/borja-rojano/wax-on-wax-off#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
