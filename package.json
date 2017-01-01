@@ -26,6 +26,7 @@
   "homepage": "https://github.com/borja-rojano/wax-on-wax-off#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "surge": "^0.18.0"
   }
 }
