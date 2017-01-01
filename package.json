@@ -4,8 +4,9 @@
   "description": "Your first real website",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "prestart": "npm run surge",
+    "start": "nodemon server.js",
+    "surge": " cd /Users/borja/projects/tapewrite-lite/src && surge --domain tapewrite-lite.surge.sh"
   },
   "repository": {
     "type": "git",
