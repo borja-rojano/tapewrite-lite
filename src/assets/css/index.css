@@ -49,6 +49,10 @@ body {
     background-color: white;
 }
 
+.feed-image{
+    width: 100%;
+}
+
 #tape-contol {
     position: fixed;
     bottom: 0;
