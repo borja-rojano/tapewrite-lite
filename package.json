@@ -1,12 +1,13 @@
 {
-  "name": "wax-on-wax-off",
+  "name": "TapeWrite-Lite",
   "version": "1.0.0",
-  "description": "Your first real website",
+  "description": "A super lightweight player for TapeWrite",
   "main": "server.js",
   "scripts": {
-    "prestart": "npm run surge",
-    "start": "nodemon server.js",
-    "surge": " cd /Users/borja/projects/tapewrite-lite/src && surge --domain tapewrite-lite.surge.sh"
+    "prestart":"npm run surge",
+    "start": "npm run live-server",
+    "surge": "cd /Users/borjarojano/projects/tapewrite-lite/src && surge --domain tapewrite-lite.surge.sh",
+    "live-server": "cd /Users/borjarojano/projects/tapewrite-lite/src && live-server --port=3000 --quiet"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "homepage": "https://github.com/borja-rojano/wax-on-wax-off#readme",
   "dependencies": {
     "express": "^4.14.0",
+    "live-server": "^1.1.0",
     "nodemon": "^1.11.0",
     "surge": "^0.18.0"
   }
