@@ -4,9 +4,8 @@
   "description": "A super lightweight player for TapeWrite",
   "main": "server.js",
   "scripts": {
-    "prestart":"npm run surge",
     "start": "npm run live-server",
-    "surge": "cd /Users/borjarojano/projects/tapewrite-lite/src && surge --domain tapewrite-lite.surge.sh",
+    "surge": "cd /Users/borjarojano/projects/tapewrite-lite/src && surge --domain borja.surge.sh",
     "live-server": "cd /Users/borjarojano/projects/tapewrite-lite/src && live-server --port=3000 --quiet"
   },
   "repository": {
